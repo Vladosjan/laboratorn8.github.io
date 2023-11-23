@@ -32,8 +32,7 @@ circle2.style.fontFamily = "Times New Roman"
       circle2.innerHTML = "You are lose	" + random;
        }
       } 
- 
-}
+ }
 }
 );
 
