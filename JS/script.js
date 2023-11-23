@@ -11,7 +11,8 @@ let body = document.querySelector("body");
   textInput2.innerHTML = "2";
    let test = document.getElementById("button1"); 
  for(let i = 0; i < 3; i++){   
-test.onclick = Game; 
+test.onclick = Game;  
+ }
 let random = Math.floor(Math.random() * 2);  
 let random1 = Math.floor(Math.random() * 2);   
   let circle1 = document.getElementById("circle1");   
