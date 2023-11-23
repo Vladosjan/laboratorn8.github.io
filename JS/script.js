@@ -27,7 +27,7 @@ circle2.style.fontFamily = "Times New Roman"
       if(random == 1){  
         circle1.innerHTML = random;
      circle1.innerHTML = "You are win	" + random; 
-	   }else{ 
+	   }if(random1 == 1){ 
       circle2.innerText = random;
       circle2.innerHTML = "You are lose	" + random;
        }
