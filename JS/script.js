@@ -12,7 +12,7 @@ let body = document.querySelector("body");
    let test = document.getElementById("button1"); 
  for(let i = 0; i < 3; i++){   
 test.onclick = Game;  
- }
+ 
 let random = Math.floor(Math.random() * 2);  
 let random1 = Math.floor(Math.random() * 2);   
   let circle1 = document.getElementById("circle1");   
@@ -31,7 +31,8 @@ circle2.style.fontFamily = "Times New Roman"
       circle2.innerText = random;
       circle2.innerHTML = "You are lose	" + random;
        }
-      }
+      } 
+ }
 }
 }
 );
